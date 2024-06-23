@@ -36,6 +36,6 @@ public class Test {
             Thread.currentThread().interrupt();
         }
 
-        System.out.println("Combined list: " + sharedResource.getSharedList());
+        System.out.println("final List " + sharedResource.getSharedList());
     }
 }
